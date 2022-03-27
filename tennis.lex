@@ -82,7 +82,7 @@ int main (int argc, char **argv)
 	              break;
           case YEAR: printf("YEAR:\t\t\t%d\t\t\t%d\n", yylval.ival,yylval.ival);
 	              break;
-          case PARTICIPANT_NAME:  printf("NAME:\t\t\t%s\t\t%s\n", yytext,yylval.name);
+          case PARTICIPANT_NAME:  printf("PARTICIPANT_NAME:\t%s\t\t%s\n", yytext,yylval.name);
                       break;
           case NAME:  printf("NAME:\t\t\t%s\n",yytext);
                       break;
